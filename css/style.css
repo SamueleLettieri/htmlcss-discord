@@ -4,62 +4,95 @@
     box-sizing: border-box;
 }
 
-
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: auto;
+    height: 460px;
+}
+ /* sezione iniziale  */
 .bordo{
-    background-color: aquamarine;
+    background-color: #255EE9;
     padding: 10px;
+    height: 50px;
+
 }
 
 .contenitore{
     margin: 0 auto;
     display: flex;
-    background-color: darkorange;
-    width: 700px;
+    width: 100%;
     justify-content: space-between;
 }
 
 li{
     display: inline;
+    padding-left: 40px;
 }
 
 .logo{
     padding: 5px;
-    border-style: dashed;
     width: 223px;
 }
 .link{
     padding: 5px;
-    border-style: dashed;
-    width: 255px;
     text-align: center;
 }
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 .login{
     padding: 5px;
-    border-style: dashed;
     width: 223px;
     display: flex;
     justify-content: flex-end;
 }
+.bottone{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 39px;
+    border-radius: 20px 20px 20px 20px;
+}
+.colorebotb{
+background-color: rgb(255, 255, 255);
+}
+.fontacc{
+font-size: 12px;
+}
 
-
+/* testo iniziale */
 
 .blu{
-    background-color: blue;
     padding: 30px;
+    background-size: cover;
 }
 .striscia1{
     margin: 0 auto;
-    background-color: pink;
     width: 600px;
     height: 300px;
-    border-style: dashed;
+    text-align: center;
+    color: white;
 }
-
+.titolo-iniziale{
+    font-size: 30px;
+    padding-top: 70px;
+}
+.ps1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.font-bs1{
+    font-size: 17px;
+}
+.colorebotn{
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+ /* inizio sezzioni */
 .bianco{
     background-color: white;
     padding: 30px;
