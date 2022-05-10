@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'ABeeZee', sans-serif;
+}
 
 header{
     background-image: url(../img/jumbo.png);
@@ -21,19 +24,15 @@ header{
 .contenitore{
     margin: 0 auto;
     display: flex;
-    width: 100%;
+    width: 1000px;
     justify-content: space-between;
 }
 
-li{
+.lista{
     display: inline;
     padding-left: 40px;
 }
 
-.logo{
-    padding: 5px;
-    width: 223px;
-}
 .link{
     padding: 5px;
     text-align: center;
@@ -45,8 +44,7 @@ a{
 }
 
 .login{
-    padding: 5px;
-    width: 223px;
+
     display: flex;
     justify-content: flex-end;
 }
@@ -54,7 +52,7 @@ a{
     padding-left: 10px;
     padding-right: 10px;
     height: 39px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px;
 }
 .colorebotb{
 background-color: rgb(255, 255, 255);
@@ -88,6 +86,9 @@ font-size: 12px;
 .font-bs1{
     font-size: 17px;
 }
+.frase-finale{
+    padding: 40px;
+}
 
 
 .colorebotn{
@@ -116,11 +117,11 @@ img{
 
 .st-1{
     width: 400px;
-    height: 300px;
+    
 }
 .st-2{
     width: 300px;
-    height: 300px;
+    ;
 }
 
 .grigio{
@@ -130,7 +131,7 @@ img{
 .striscia5{
     margin: 0 auto;
     width: 700px;
-    height: 600px;
+   padding-bottom: 60px;
     text-align: center;
 }
 .titolo-st-finale{
@@ -142,66 +143,69 @@ img{
     color: white;
     background-color: #628fff;
 }
-
+/*  l'inizio della fine */
 .nero{
     background-color: black;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 30px;
     display: flex;
     
 }
 
 .st6-1{
-    width: 300px;
-    height: 600px;
-    background-color: pink;
-    border-style: dashed;
+    width: 200px;
 }
 
 .st6-2{
     display: flex;
-    width: 400px;
-    background-color: blue;
+    width: 600px;
+
 }
 
 .st-q{
-    width: 100px;
-    background-color: lightblue;
-    height: 600px;
-    border-style: dashed;
-    border-color: white;
+    width: 500px;
+    color: white;
 }
 .box{
     margin: 0 auto;
     display: flex;
 }
 
-hr{
-    color: lightslategray;
-}
 
 .sfinale{
     background-color: black;
     padding-top: 20px;
+    
 }
 
 .fp{
     margin: 0 auto;
     display: flex;
-    background-color: lightskyblue;
-    width: 700px;
+    width: 1000px;
     justify-content: space-between;
-    height: 30px;
-    padding: 5px;
+    padding-top: 15px;
+    border-top: 1px solid gray;
 }
 
-.fp1{
-   
-    background-color: pink;
-    border-style: dashed;
+.fine-pag{
+    color: blue;
+}
+.ita{
+    width: 20px;
 }
 
-.fp2{
-    background-color: pink;
-    border-style: dashed;
+.italia{
+    padding-top: 20px;
+    display: inline-block;
+    color: white;
+}
+.loghi{
+    padding-right: 15px;
+    padding-top: 10px;
+    color: white;
+}
+
+li{
+    list-style-type:none;
+    padding-bottom: 20px;
 }
