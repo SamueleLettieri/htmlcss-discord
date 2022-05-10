@@ -88,6 +88,8 @@ font-size: 12px;
 .font-bs1{
     font-size: 17px;
 }
+
+
 .colorebotn{
     color: white;
     background-color: rgb(39, 39, 39);
@@ -97,24 +99,28 @@ font-size: 12px;
     background-color: white;
     padding: 30px;
 }
-
+img{
+    width: 100%;
+}
+.titolo-sez1{
+    font-size: 30px;
+}
 .striscia{
     display: flex;
     width: 700px;
     margin: 0 auto;
 }
+.ps2{
+    padding-top: 20px;
+}
 
 .st-1{
     width: 400px;
-    background-color: lightskyblue;
     height: 300px;
-    border-style: dashed;
 }
 .st-2{
     width: 300px;
-    background-color: pink;
     height: 300px;
-    border-style: dashed;
 }
 
 .grigio{
@@ -122,11 +128,19 @@ font-size: 12px;
     padding: 30px;
 }
 .striscia5{
-    background-color: green;
     margin: 0 auto;
     width: 700px;
     height: 600px;
-    border-style: dashed;
+    text-align: center;
+}
+.titolo-st-finale{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.colorebotblu{
+    color: white;
+    background-color: #628fff;
 }
 
 .nero{
